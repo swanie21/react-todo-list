@@ -54,3 +54,11 @@ li:hover span {
   cursor: pointer;
   visibility: visible;
 }
+
+footer a {
+  padding: 0 5px;
+}
+
+footer a.active {
+  font-weight: bold;
+}
