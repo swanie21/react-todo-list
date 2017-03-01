@@ -1,5 +1,7 @@
 # React To-do List
 
+<img src="public/todo-list.png" height="500px" width="300px" alt="to-do list"/>
+
 Followed Egghead [React tutorial](https://egghead.io/lessons/react-bootstrap-a-react-application-through-the-cli-with-create-react-app)
 
 Created server to persist the list of to-dos with a JSON server node module  

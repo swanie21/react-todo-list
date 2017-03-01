@@ -91,21 +91,20 @@ class App extends Component {
 
     return (
       <div className="App">
-        <div className="Todo-App">
-          {this.state.errorMessage && <p className="error">{this.state.errorMessage}</p>}
-          {this.state.message && <p className="success">{this.state.message}</p>}
-          <TodoForm
-            handleInputChange={this.handleInputChange}
-            currentTodo={this.state.currentTodo}
-            handleSubmit={submitHandler}
-          />
-          <TodoList
-            handleToggle={this.handleToggle}
-            todos={displayTodos}
-            handleRemove={this.handleRemove}
-          />
-          <Footer />
-        </div>
+        <h1>To-do List</h1>
+        {this.state.errorMessage && <p className="error">{this.state.errorMessage}</p>}
+        {this.state.message && <p className="success">{this.state.message}</p>}
+        <TodoForm
+          handleInputChange={this.handleInputChange}
+          currentTodo={this.state.currentTodo}
+          handleSubmit={submitHandler}
+        />
+      <TodoList
+        handleToggle={this.handleToggle}
+        todos={displayTodos}
+        handleRemove={this.handleRemove}
+      />
+      <Footer />
       </div>
     );
   }
