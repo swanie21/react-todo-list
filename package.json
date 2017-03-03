@@ -9,7 +9,7 @@
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
-  "homepage": "https://github.com/swanie21/react-todo-list/public/index.html",
+  "homepage": "http://kirstenswanson.io/react-todo-list/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
